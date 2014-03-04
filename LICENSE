@@ -1,3 +1,14 @@
+leaflet.geocsv-src.js and leaflet.geocsv.js
+    * Copyright Ivan Eixarchunder 
+    * Licensed under the GPL license, version 2
+
+Leaflet.markercluster
+    * Copyright David Leaver
+    * Licensed under the MIT license
+
+
+All other code licensed as follows: 
+
 The MIT License (MIT)
 
 Copyright (c) 2014 Michael Moore
