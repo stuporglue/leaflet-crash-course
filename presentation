@@ -1,0 +1,62 @@
+About 40 minutes in total would be an ideal length. You'll be the only presenter. 
+It would be great if you could provide a bit of context leading up to the actual 
+demonstration of Leaflet. While we're expecting a somewhat diverse audience, you 
+should count on there being some absolute beginners in the room. 
+
+
+1: Web mapping software 
+
+    * Google Maps
+    * OpenLayers
+    * Bing Maps
+    * Etc.
+    * ...and...
+    * Leaflet.js
+
+    * Crash course: 
+        - Tiles
+        - Vector layers
+
+2: Why Leaflet?
+
+    * Simple to use compared to other options
+    * Good documentation
+    * Good plugins
+    * Free 
+
+3: Demo use case
+    
+    * Small business website with business locations on it
+
+
+4: Crash course on making a website
+    
+    * Editor (best free editor for Windows?)
+    * How to save files (.html, .js)
+
+5a: Getting data
+    
+    * Finding base maps (MapQuest free maps)
+    * Finding points (Culver POI file)
+
+5b: Other data sources/methods
+
+    * CartoDB
+    * Mapbox
+
+6: Making a basic Leaflet map
+
+    * HTML and JavaScript file
+    * Adding basemap
+
+7: CSV Support
+    
+    * Adding a plugin: http://leafletjs.com/plugins.html
+
+7: Adding markers
+
+    * Adding CSV markers
+
+8: Setting custom marker icons
+
+   * Custom marker icons 

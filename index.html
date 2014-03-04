@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Culver's Restaurants</title>
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+        <link rel="stylesheet" href="js/Leaflet.markercluster-0.4.0/dist/MarkerCluster.css" />
+        <link rel="stylesheet" href="js/Leaflet.markercluster-0.4.0/dist/MarkerCluster.Default.css" />
+    </head>
+    <body>
+        <h1>Map of Culver's Restaurant Locations</h1>
+        <div style='border:2px solid black;height:500px;' id='mapdiv'></div>
+
+        <div style='font-family: Consolas, monospace;' id='locations'>
+            <!-- Replace all this with the CSV contents, from this line -->
+            <p>The Culver's locations aren't mine and I didn't see an obvious license.<p>
+            <p>They are currently (14 Mar 2014) available on <a href=='http://www.culvers.com/locator/view-all-locations/'>this page</a>
+            or, if you prefer a direct link, <a href='http://culvers-bece73af.s3.amazonaws.com/page-content/locator/CulversRestaurants.csv'>right here</a>.
+            </p>
+            <p>
+            Open the CSV file in Excel or OpenOffice and save it as a CSV file. This will get rid of all the extra columns the CSV comes with.
+            </p>
+            <p>
+            Then replace the contents of this div with the contents of the CSV file.
+            </p>
+            <!-- Down to this line -->
+        </div>
+
+        <script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+        <script src='js/leaflet.geocsv.js'></script>
+        <script src="js/Leaflet.markercluster-0.4.0/dist/leaflet.markercluster.js"></script>
+        <script src='js/culvers.js'></script>
+    </body>
+</html>
